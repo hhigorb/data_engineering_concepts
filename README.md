@@ -1,4 +1,3 @@
 # Conceitos de Engenharia de Dados
-Anotações sobre conceitos importantes de Engenharia de Dados
 
-Esse repositório também contém aulas/exercícios de Bootcamps realizados por mim.
+Este repositório contém anotações sobre conceitos importantes de Engenharia de Dados, juntamente com aulas e exercícios de bootcamps que realizei.
