@@ -6,7 +6,7 @@ O ACID é um acrônimo usado para descrever as propriedades essenciais que garan
   - Significa que uma transação é uma operação única e indivisível. Ou seja, ou todas as partes da transação são executadas com sucesso, ou nenhuma delas é executada. Se alguma parte da transação falhar, o banco de dados retornará ao estado anterior (rollback), desfazendo todas as mudanças feitas até o momento.
 
 - **Consistência (Consistency)**
- - Assegura que uma transação leva o banco de dados de um estado válido para outro estado válido. Isso significa que todas as regras e restrições do banco de dados devem ser seguidas durante a execução da transação, mantendo os dados em um estado coerente.
+  - Assegura que uma transação leva o banco de dados de um estado válido para outro estado válido. Isso significa que todas as regras e restrições do banco de dados devem ser seguidas durante a execução da transação, mantendo os dados em um estado coerente.
 
 - **Isolamento (Isolation)**
   - Garante que as transações em execução sejam isoladas umas das outras, para que operem como se fossem executadas em série, mesmo que ocorram simultaneamente. Isso evita que uma transação interfira nos resultados de outra, mantendo a consistência dos dados.
