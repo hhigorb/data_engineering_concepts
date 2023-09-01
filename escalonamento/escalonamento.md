@@ -1,4 +1,8 @@
-# Escalonamento
+# Escalabilidade
+
+Escalabilidade refere-se à capacidade de um sistema ou aplicativo de se adaptar e crescer de forma eficaz em resposta ao aumento da demanda ou carga. Em um mundo onde a tecnologia está em constante evolução e as necessidades dos usuários estão sempre mudando, a escalabilidade é um conceito fundamental para garantir que os sistemas continuem funcionando sem problemas e com bom desempenho, mesmo em situações de pico de uso.
+
+Existem dois tipos principais de escalabilidade que são amplamente empregados para enfrentar diferentes desafios: o escalonamento vertical e o escalonamento horizontal.
 
 **Escalonamento Vertical:**
   - Escalonar verticalmente, também conhecido como "escalar para cima", significa adicionar mais recursos, capacidade ou poder a um único componente de um sistema. Isso é feito 
