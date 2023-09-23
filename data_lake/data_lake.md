@@ -19,28 +19,14 @@ No Data Lake, os dados podem ser posteriormente processados, transformados e org
 de análise. Essa flexibilidade permite que as empresas extraiam insights mais relevantes, uma vez que os dados podem ser explorados de várias maneiras diferentes.
 
 ## Vantagens do Data Lake
-
-- **Armazenamento versátil**
-  - Todos os tipos de dados podem ser armazenados, independentemente de sua estrutura ou formato.
-
-- **Escalabilidade**
-  - O Data Lake é altamente escalável, permitindo o armazenamento de grandes volumes de dados.
-
-- **Flexibilidade**
-  - Permite a coleta de dados em tempo real e a adaptação rápida a novas necessidades de análise.
-
-- **Exploração avançada**
-  - Facilita a descoberta de insights mais profundos e análises complexas.
+  - Armazenamento versátil: Todos os tipos de dados podem ser armazenados, independentemente de sua estrutura ou formato.
+  - Escalabilidade: O Data Lake é altamente escalável, permitindo o armazenamento de grandes volumes de dados.
+  - Flexibilidade: Permite a coleta de dados em tempo real e a adaptação rápida a novas necessidades de análise.
+  - Exploração avançada: Facilita a descoberta de insights mais profundos e análises complexas.
 
 ## Desvantagens do Data Lake
-
-- **Complexidade**
-  - O armazenamento de dados brutos e não estruturados pode exigir ferramentas e técnicas mais avançadas para extrair valor dos dados.
-
-- **Segurança**
-  - A gestão adequada da segurança e privacidade dos dados no Data Lake pode ser um desafio.
-
-- **Potencial de excesso de dados**
-  - Sem uma estratégia clara de análise e governança, o Data Lake pode acumular grandes volumes de dados sem valor prático.
+  - Complexidade: O armazenamento de dados brutos e não estruturados pode exigir ferramentas e técnicas mais avançadas para extrair valor dos dados.
+  - Segurança: A gestão adequada da segurança e privacidade dos dados no Data Lake pode ser um desafio.
+  - Potencial de excesso de dado: Sem uma estratégia clara de análise e governança, o Data Lake pode acumular grandes volumes de dados sem valor prático.
 
 Em resumo, o Data Lake oferece uma abordagem mais flexível e aberta para armazenar e acessar dados de várias fontes, com potencial para fornecer insights mais valiosos e relevantes para as empresas. Contudo, é essencial implementar uma estratégia sólida de governança e análise para garantir que o Data Lake seja efetivo na extração de valor dos dados brutos coletados.
