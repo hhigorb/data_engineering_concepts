@@ -19,3 +19,20 @@ Exemplo:
 Suponha que uma empresa de comércio eletrônico queira analisar dados de vendas brutos, logs de acesso do site e comentários dos clientes para obter insights. Com a arquitetura Lakehouse, ela pode armazenar esses dados em um Data Lake sem se preocupar com a estrutura inicial. Em seguida, ela pode usar ferramentas como o Apache Spark para transformar esses dados em uma forma estruturada adequada para análises, mantendo, ao mesmo tempo, a flexibilidade de adicionar novos tipos de dados facilmente.
 
 Assim, a arquitetura Lakehouse permite que as organizações aproveitem ao máximo seus dados de maneira eficaz e flexível, resolvendo o desafio de unificar dados brutos e estruturados para análises avançadas.
+
+## Vantagens
+  - Flexibilidade de dados: A arquitetura Lakehouse permite a ingestão de dados brutos e não estruturados, o que é essencial para lidar com a crescente variedade de fontes de dados nas organizações.
+  - Economia de custos: Utilizando soluções de armazenamento em nuvem e tecnologias de código aberto, as organizações podem reduzir os custos de armazenamento e processamento em comparação com sistemas tradicionais.
+  - Processamento analítico de alto desempenho: Ao adicionar estrutura aos dados por meio de tecnologias como Delta Lake e Apache Spark, a arquitetura Lakehouse oferece consultas analíticas de alto desempenho.
+  - Escalabilidade: É possível dimensionar a arquitetura Lakehouse de acordo com as necessidades da organização à medida que os volumes de dados aumentam.
+  - Integração de dados simplificada: A integração de dados de diferentes fontes é simplificada, pois os dados brutos podem ser armazenados e processados em um único ambiente.
+
+## Desvantagens:
+  - Complexidade de gerenciamento: Configurar e gerenciar uma arquitetura Lakehouse pode ser complexo, exigindo habilidades técnicas avançadas para manutenção e otimização.
+  - Custo inicial: Embora os custos operacionais possam ser menores, o investimento inicial em hardware, software e treinamento de equipe pode ser significativo.
+  - Qualidade de dados: A ingestão de dados brutos pode resultar em problemas de qualidade de dados, exigindo esforços adicionais de limpeza e preparação.
+  - Latência: Dependendo da complexidade da infraestrutura, pode haver latência na recuperação de dados, afetando a capacidade de consulta em tempo real.
+  - Governança de dados: É necessário estabelecer políticas de governança de dados rigorosas para garantir segurança e conformidade, o que pode ser desafiador.
+  - Compatibilidade de ferramentas: Nem todas as ferramentas de análise são compatíveis com arquiteturas Lakehouse, limitando as opções disponíveis para análises e relatórios.
+  - Treinamento de equipe: A equipe de TI e análise precisa ser treinada nas tecnologias específicas usadas em uma arquitetura Lakehouse, o que pode ser demorado e caro.
+  - Monitoramento e manutenção contínuos: É necessário monitorar continuamente a infraestrutura para garantir desempenho, disponibilidade e segurança dos dados, o que requer esforço e recursos constantes.
