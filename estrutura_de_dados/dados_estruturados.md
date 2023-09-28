@@ -1,4 +1,4 @@
-# Dados estruturados
+# Dados Estruturados
 
 Dados estruturados referem-se a informações organizadas em um formato predefinido e padronizado, facilitando a manipulação, armazenamento, recuperação e análise
 desses dados. Eles são geralmente armazenados em bancos de dados relacionais ou outras estruturas semelhantes que impõem uma estrutura consistente aos dados.
