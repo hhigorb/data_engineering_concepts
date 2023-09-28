@@ -1,4 +1,4 @@
-# Semi estruturados
+# Dados Semi Estruturados
 
 Dados semi-estruturados referem-se a informações que possuem algum nível de estrutura, mas não seguem um formato rígido como os dados estruturados.
 Esses tipos de dados podem conter elementos que não se encaixam perfeitamente em um esquema fixo, permitindo flexibilidade na organização e representação
