@@ -41,7 +41,7 @@ A utilização do formato delta é bem simples e está disponível por meio das 
 
 Operações DML
 
-São permitidos comandos INSERT, UPDATE, MERGE e DELETE   Todas as possibilidades de Delta Lake para os times de dados!  Conforme visto, a tecnologia do Delta Lake e seu formato delta trazem
+Também são pertitidas operações DML no Delta Lake. São permitidos comandos como INSERT, UPDATE, MERGE e DELETE. Conforme visto, a tecnologia do Delta Lake e seu formato delta trazem
 inúmeros benefícios para os times de dados que já fazem utilização do Spark ou que gostariam de começar a utilizá-lo. Embora tenha sido desenvolvido pelo Databricks, o Delta Lake
 é open source e pode ser utilizado em diversos outros tipos de aplicações Spark como o EMR (AWS), Dataproc (Google Cloud), Kubernetes e On-premises.  A possibilidade de ter
 tabelas ACID em seu Delta Lake permitiu a criação de um novo conceito no mundo de dados, o Data Lakehouse, que se propõe a ser a fusão do Data Lake com o tradicional Data Warehouse.
