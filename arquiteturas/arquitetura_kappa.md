@@ -21,3 +21,5 @@ Essa arquitetura passa por essas etapas de geração, tópico do Apache Kafka, p
 que geralmente acontece no Lambda Architecute:
 
 ![Arquitetura Kappa](../images/arquitetura_kappa_uber_kafka.png 'Arquitetura Kappa')
+
+Fonte: https://medium.com/@bernardo.costa/introdu%C3%A7%C3%A3o-%C3%A0-arquitetura-de-dados-usando-aws-6ec1947dda06
