@@ -25,7 +25,7 @@ atualizar estoque e gerenciar contas de clientes.
 Outras diferenças importantes incluem formatação de dados, arquitetura de dados, performance e requisitos. Também discutiremos um exemplo de quando uma organização
 pode usar OLAP ou OLTP.
 
-### Formatação de dados
+#### Formatação de dados
 
 Os sistemas OLAP usam modelos de dados multidimensionais para que você possa visualizar os mesmos dados de diferentes ângulos. Os bancos de dados OLAP armazenam
 dados em um formato de cubo, em que cada dimensão representa um atributo de dados diferente. Cada célula no cubo representa um valor ou medida para a interseção
@@ -35,7 +35,7 @@ Os sistemas OLAP usam modelos de dados multidimensionais para que você possa vi
 dados em um formato de cubo, em que cada dimensão representa um atributo de dados diferente. Cada célula no cubo representa um valor ou medida para a interseção
 das dimensões.
 
-### Arquitetura de dados
+#### Arquitetura de dados
 
 A arquitetura de banco de dados do OLAP prioriza a leitura de dados sobre as operações de gravação de dados. Você pode realizar consultas complexas de forma rápida
 e eficiente em grandes volumes de dados. A disponibilidade é uma preocupação de baixa prioridade, pois o principal caso de uso é a análise.
@@ -46,7 +46,7 @@ atualizar dados transacionais de alta frequência e alto volume sem comprometer 
 Por exemplo, se dois clientes comprarem o mesmo item ao mesmo tempo, o sistema OLTP pode ajustar os níveis de estoque com precisão. E o sistema priorizará o
 primeiro cliente cronológico se o item for o último em estoque. A disponibilidade é uma alta prioridade e normalmente é obtida por meio de vários backups de dados.
 
-### Performance
+#### Performance
 
 Os tempos de processamento do OLAP podem variar de minutos a horas, dependendo do tipo e volume dos dados que estiverem sendo analisados. Para atualizar um banco
 de dados OLAP, você processa periodicamente os dados em grandes lotes e, em seguida, carrega o lote no sistema de uma só vez. A frequência de atualização de dados
@@ -55,7 +55,7 @@ também varia entre os sistemas, de diária a semanal ou até mesmo mensal.
 Por outro lado, você mede o tempo de processamento do OLTP em milissegundos ou menos. Os bancos de dados OLTP gerenciam as atualizações do banco de dados em
 tempo real. As atualizações são rápidas, curtas e acionadas por você ou pelos seus usuários. O processamento de fluxo geralmente é usado em vez do processamento em lote.
 
-### Requisitos 
+#### Requisitos 
 
 Os sistemas OLAP agem como um armazenamento de dados centralizado e extraem dados de vários data warehouses, bancos de dados relacionais e outros sistemas.
 Os requisitos de armazenamento variam de terabytes (TB) a petabytes (PB). As leituras de dados também podem consumir muita computação, exigindo servidores
@@ -64,7 +64,7 @@ de alta performance.
 Por outro lado, você pode medir os requisitos de armazenamento OLTP em gigabytes (GB). Os bancos de dados OLTP também podem ser apagados quando os dados
 forem carregados em um data warehouse ou data lake relacionado ao OLAP. No entanto, os requisitos de computação para OLTP também são altos.
 
-### Exemplo de OLAP versus OLTP
+#### Exemplo de OLAP versus OLTP
 
 Vamos considerar uma grande empresa de varejo que opera centenas de lojas em todo o país. A empresa tem um enorme banco de dados que rastreia as vendas,
 o estoque, os dados de clientes e outras métricas importantes.
