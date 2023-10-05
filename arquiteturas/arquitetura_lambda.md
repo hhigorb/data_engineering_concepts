@@ -38,6 +38,8 @@ em lote, processando consultas nos dados mais recentes que as exibições em lot
 
 ## Porque utilizar a arquitetura Lambda?
 
+![Arquitetura Lambda](../images/vantagens_arquitetura_lambda.png 'Arquitetura Lambda')
+
 No livro seminal de Marz e Warren sobre Big Data de Arquitetura Lambda, eles listam oito propriedades desejáveis ​​em um sistema de Big Data,
 descrevendo como a Arquitetura Lambda satisfaz cada uma delas:
 
@@ -75,6 +77,8 @@ alvos móveis, simplificando enormemente a depuração de cálculos e consultas.
 - Na arquitetura Lambda, a última propriedade de um sistema de big data é preenchida pela camada de velocidade, que oferece consultas em tempo real do conjunto de dados mais recente.
 
 ## Desvantagens da arquitetura Lambda
+
+![Arquitetura Lambda](../images/desvantagens_arquitetura_lambda.png 'Arquitetura Lambda')
 
 Embora as vantagens da arquitetura Lambda pareçam numerosas e diretas, há algumas desvantagens a serem lembradas. Em primeiro lugar, o custo será levado em
 consideração. Embora como dimensionar não seja muito complexo — basta adicionar mais máquinas — podemos ver que a camada de lote precisará necessariamente
