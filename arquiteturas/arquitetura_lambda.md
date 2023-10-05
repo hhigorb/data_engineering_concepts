@@ -85,3 +85,5 @@ Outros notaram o desafio de manter dois conjuntos separados de código para comp
 as camadas operam no mesmo conjunto — ou, no caso da camada de velocidade, subconjunto — de dados, e as perguntas feitas a ambas as camadas são semelhantes.
 No entanto, como as duas camadas são construídas em sistemas completamente diferentes (por exemplo, Hadoop ou Snowflake para a camada de lote, mas Storm ou
 Spark para a camada de velocidade), a manutenção de código para dois sistemas separados pode ser complicada.
+
+Fonte: https://uderson.medium.com/uma-vis%C3%A3o-geral-da-arquitetura-lambda-50c9e059a0b0
