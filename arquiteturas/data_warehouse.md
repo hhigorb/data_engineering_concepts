@@ -2,6 +2,8 @@
 
 Data Warehouse é um conceito utilizado para criar um repositório centralizado de informações. Todos os dados importantes da empresa são armazenados de forma organizada e estruturada. Dentro do Data Warehouse, os dados são agrupados em conjuntos, como dados de RH, financeiro, vendas, etc.
 
+![Arquitetura Data Warehouse](../images/arquitetura_data_warehouse.png 'Arquitetura Data Warehouse')
+
 São projetados para dados estruturados, geralmente armazenados em bancos de dados relacionais. Eles são otimizados para desempenho de consulta e relatórios. São adequados para inteligência de negócios (BI) e análises, oferecendo ferramentas de consulta e relatório baseadas em SQL.
 
 Fundamentos de Data Warehouse geralmente incluem compreender OLTP (Processamento de Transações Online), tabelas de dimensão, extração, transformação e carga (ETL), e modelagem de dados, como entender tabelas de fatos e dimensões.
