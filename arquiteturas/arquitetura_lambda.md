@@ -25,6 +25,8 @@ no entanto, é que leva muito tempo para calcular essas visualizações em lote.
 
 ## Serving Layer 
 
+É a camada responsável por indexar os dados processados nas camadas anteriores, permitindo que queries ad-hoc sejam feitas.
+
 A segunda camada na arquitetura Lambda é a camada de serviço. A camada de serviço é carregada nas visualizações em lote e, como um banco de dados tradicional,
 permite consultas somente leitura nessas visualizações em lote, fornecendo respostas de baixa latência. Assim que a camada de lote tiver um novo conjunto de
 visualizações de lote pronto, a camada de serviço troca o conjunto agora obsoleto de visualizações de lote pelo conjunto atual.
@@ -35,6 +37,17 @@ A terceira camada é a camada de velocidade. Os dados que são transmitidos para
 A diferença é que, embora a camada de lote mantenha todos os dados desde o início de seu tempo, a camada de velocidade só se preocupa com os dados
 que chegaram desde o último conjunto de visualizações de lote concluído. A camada de velocidade compensa a alta latência na computação de exibições
 em lote, processando consultas nos dados mais recentes que as exibições em lote ainda precisam levar em consideração.
+
+Este modelo é proposto seguindo as seguintes premissas:
+
+  - Robustez e tolerância a falhas;
+  - Baixa latência para leitura e atualização;
+  - Escalabilidade;
+  - Generalização;
+  - Extensibilidade;
+  - Ad hoc queries;
+  - Manutenção mínima;
+  - Fácil de debugar;
 
 ## Porque utilizar a arquitetura Lambda?
 
