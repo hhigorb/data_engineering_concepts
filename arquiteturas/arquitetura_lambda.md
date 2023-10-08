@@ -38,6 +38,8 @@ A diferença é que, embora a camada de lote mantenha todos os dados desde o in�
 que chegaram desde o último conjunto de visualizações de lote concluído. A camada de velocidade compensa a alta latência na computação de exibições
 em lote, processando consultas nos dados mais recentes que as exibições em lote ainda precisam levar em consideração.
 
+## Porque utilizar a arquitetura Lambda?
+
 Este modelo é proposto seguindo as seguintes premissas:
 
   - Robustez e tolerância a falhas;
@@ -48,8 +50,6 @@ Este modelo é proposto seguindo as seguintes premissas:
   - Ad hoc queries;
   - Manutenção mínima;
   - Fácil de debugar;
-
-## Porque utilizar a arquitetura Lambda?
 
 ### Vantagens
 ![Arquitetura Lambda](../images/vantagens_arquitetura_lambda.png 'Arquitetura Lambda')
