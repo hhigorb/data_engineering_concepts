@@ -75,3 +75,5 @@ Isso permite que produtores e consumidores de eventos compartilhem informações
 
 As organizações podem agregar a arquitetura orientada a eventos aos seus sistemas e aplicações para aprimorar a escalabilidade e a
 capacidade de resposta, além de acessar os dados e o contexto necessários para um processo de tomada de decisões empresariais mais eficiente.
+
+Fonte: https://www.redhat.com/pt-br/topics/integration/what-is-event-driven-architecture
