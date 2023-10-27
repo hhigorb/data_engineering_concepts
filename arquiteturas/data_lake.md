@@ -1,5 +1,7 @@
 # Data Lake
 
+#### MELHORES PRÁTICAS: https://www.chaossearch.io/blog/data-lake-best-practices
+
 Data Lake é um conceito moderno e inovador que visa abordar alguns dos desafios enfrentados pelo Data Warehouse tradicional. Assim como o Data Warehouse,
 o Data Lake também é um repositório centralizado de informações, mas difere na forma como os dados são armazenados e acessados.
 
