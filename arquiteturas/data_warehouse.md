@@ -1,6 +1,6 @@
 ## Data Warehouse
 
-MELHORES PRÁTICAS: https://successive.cloud/data-warehouse-best-practices/
+#### MELHORES PRÁTICAS: https://successive.cloud/data-warehouse-best-practices/
 
 Data Warehouse é um conceito utilizado para criar um repositório centralizado de informações. Todos os dados importantes da empresa são armazenados de forma organizada e estruturada. Dentro do Data Warehouse, os dados são agrupados em conjuntos, como dados de RH, financeiro, vendas, etc.
 
