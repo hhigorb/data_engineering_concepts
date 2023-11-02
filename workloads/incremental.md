@@ -1,6 +1,6 @@
-# Incremental
+# Processamento Incremental
 
-O termo "incremental" refere-se a uma abordagem ou processo que envolve atualizar, adicionar ou modificar dados de maneira incremental,
+O processamento "incremental" refere-se a uma abordagem ou processo que envolve atualizar, adicionar ou modificar dados de maneira incremental,
 em vez de realizar operações de processamento em lotes de dados completos. Essa abordagem é frequentemente usada para lidar com grandes
 volumes de dados que estão em constante evolução, como registros de logs, dados de streaming, atualizações de bancos de dados em tempo
 real, entre outros.
