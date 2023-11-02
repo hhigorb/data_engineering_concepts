@@ -31,3 +31,8 @@ Há várias técnicas e ferramentas disponíveis para implementar o processament
   - Bancos de dados NoSQL, como Cassandra e MongoDB, são frequentemente usados para armazenar e consultar dados em tempo real, permitindo atualizações incrementais.
 
 O processamento incremental é crucial em muitos cenários de negócios e aplicativos, onde a capacidade de responder rapidamente a mudanças nos dados é fundamental, como em análises em tempo real, detecção de fraudes, recomendações personalizadas, entre outros.
+
+A escolha entre o processamento "full" e o processamento "incremental" depende dos requisitos do seu caso de uso específico.
+O processamento incremental é mais apropriado quando a latência é crítica e você precisa responder rapidamente a mudanças nos dados. 
+O processamento "full" é mais apropriado quando a consistência e a integridade dos dados são prioritárias e você pode se dar ao
+luxo de lidar com atualizações periódicas em lotes.
