@@ -1,7 +1,7 @@
 # Big Data
 
 Big Data não é hardware, nem software, muito menos uma metodologia. Big Data se refere aos desafios computacionais necessários para lidar com grandes Volumes,
-Variedades, Velocidade Veracidade e Valor de dados. Simplificando, big data é um conjunto de dados maior e mais complexo, especialmente de novas fontes de dados.
+Variedades, Velocidade, Veracidade e Valor de dados. Simplificando, big data é um conjunto de dados maior e mais complexo, especialmente de novas fontes de dados.
 Esses conjuntos de dados são tão volumosos que o software tradicional de processamento de dados simplesmente não consegue gerenciá-los. No entanto,
 esses grandes volumes de dados podem ser usados para resolver problemas de negócios que você não conseguiria resolver antes.
 
