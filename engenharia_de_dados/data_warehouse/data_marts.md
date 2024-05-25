@@ -3,7 +3,7 @@
 Data marts são pequenos repositórios de dados que são projetados para atender às necessidades específicas de um departamento ou equipe dentro de uma organização.
 Eles são subconjuntos de um data warehouse maior e contêm dados relevantes para um grupo de usuários específico.
 
-![Arquitetura Data Mart](../images/arquitetura_data_mart.png 'Arquitetura Data Mart')
+![Arquitetura Data Mart](../../images/arquitetura_data_mart.png 'Arquitetura Data Mart')
 
 Imagine que você trabalha em uma grande empresa de varejo. A empresa possui um data warehouse central que armazena todos os dados relacionados às vendas,
 estoque, clientes e operações em toda a organização. No entanto, diferentes departamentos, como vendas, marketing e finanças, têm necessidades diferentes de análise de dados.

@@ -14,7 +14,7 @@ existentes ou armazenar novos dados. Ambos apoiam a tomada de decisão baseada e
 A maioria das empresas usa os sistemas OLTP e OLAP juntos para atender aos requisitos de inteligência de negócios. No entanto, a abordagem e o propósito do gerenciamento
 de dados diferem significativamente entre OLAP e OLTP.
 
-## Principais diferenças: OLAP versus OLTP
+## Principais diferenças: OLAP X OLTP
 
 O objetivo principal do processamento analítico on-line (OLAP) é analisar dados agregados, enquanto o objetivo principal do processamento de transações on-line (OLTP)
 é processar as transações do banco de dados.
@@ -91,6 +91,6 @@ da consulta, tempo de resposta, escalabilidade e custo.
 
 ## Resumão entre OLTP e OLAP
 
-![OLTP e OLAP](../images/oltp_olap.png 'OLTP e OLAP')
+![OLTP e OLAP](../../images/oltp_olap.png 'OLTP e OLAP')
 
 Fonte: https://aws.amazon.com/pt/compare/the-difference-between-olap-and-oltp/

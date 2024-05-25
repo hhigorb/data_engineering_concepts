@@ -10,7 +10,7 @@ Isso significa que o Data Lake é uma solução de armazenamento de dados mais f
 volumes de informações sem a necessidade imediata de estruturá-las. Dados de diferentes fontes, como sensores, mídias sociais, logs de aplicativos,
 transações, entre outros, são coletados e armazenados em seu formato nativo, mantendo seu contexto original.
 
-![Arquitetura Data Lake](../images/arquitetura_data_lake.png 'Arquitetura Data Lake')
+![Arquitetura Data Lake](../../images/arquitetura_data_lake.png 'Arquitetura Data Lake')
 
 Essa abordagem é útil para empresas que desejam manter todos os dados brutos em sua forma mais pura, pois acredita-se que, em um futuro próximo,
 esses dados podem se tornar valiosos para análises mais aprofundadas e usos desconhecidos atualmente.

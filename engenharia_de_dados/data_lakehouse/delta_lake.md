@@ -33,11 +33,11 @@ nos permite acessar versões antigas da tabela para consultar ou até restaurar 
 
 A utilização do formato delta é bem simples e está disponível por meio das APIs do Spark em Python (Pyspark), SQL e Scala. Abaixo alguns exemplos simples de como é possível utilizar o formato com SQL:
 
-![Delta Lake](../images/delta_lake1.png 'Delta Lake')
+![Delta Lake](../../images/delta_lake1.png 'Delta Lake')
 
 ---
 
-![Delta Lake](../images/delta_lake2.png 'Delta Lake')
+![Delta Lake](../../images/delta_lake2.png 'Delta Lake')
 
 Também são permitidas operações DML no Delta Lake. São permitidos comandos como INSERT, UPDATE, MERGE e DELETE. Conforme visto, a tecnologia do Delta Lake e seu formato delta trazem
 inúmeros benefícios para os times de dados que já fazem utilização do Spark ou que gostariam de começar a utilizá-lo. Embora tenha sido desenvolvido pelo Databricks, o Delta Lake

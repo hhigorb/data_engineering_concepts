@@ -2,7 +2,7 @@
 
 A arquitetura Lakehouse é uma abordagem de armazenamento e processamento de dados que busca resolver o problema de integrar e unificar dados em organizações de forma eficiente e flexível. Ela combina conceitos das arquiteturas de Data Lake e Data Warehouse, buscando aproveitar os pontos fortes de ambas.
 
-![Arquitetura Data Lakehouse](../images/arquitetura_data_lakehouse.png 'Arquitetura Data Lakehouse')
+![Arquitetura Data Lakehouse](../../images/arquitetura_data_lakehouse.png 'Arquitetura Data Lakehouse')
 
 Aqui está uma explicação simples:
 
@@ -16,7 +16,7 @@ Antes do Lakehouse, as organizações tinham que escolher entre armazenar dados 
 
 A arquitetura Lakehouse resolve esse problema ao combinar a flexibilidade do Data Lake para a ingestão de dados brutos com a eficiência do Data Warehouse para processamento analítico. Ela usa tecnologias como o Apache Spark e o Delta Lake para adicionar estrutura aos dados no Data Lake, permitindo consultas analíticas rápidas e precisas.
 
-![Arquitetura Data Lakehouse](../images/dw_vs_lake_vs_lakehouse.png 'Arquitetura Data Lakehouse')
+![Arquitetura Data Lakehouse](../../images/dw_vs_lake_vs_lakehouse.png 'Arquitetura Data Lakehouse')
 
 Exemplo:
 

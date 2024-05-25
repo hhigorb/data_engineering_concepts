@@ -5,7 +5,7 @@ Variedades, Velocidade Veracidade e Valor de dados. Simplificando, big data é u
 Esses conjuntos de dados são tão volumosos que o software tradicional de processamento de dados simplesmente não consegue gerenciá-los. No entanto,
 esses grandes volumes de dados podem ser usados para resolver problemas de negócios que você não conseguiria resolver antes.
 
-![O que são containers](../images/o_que_nao_e_big_data.png 'Big Data')
+![Big Data](../../images/o_que_nao_e_big_data.png 'Big Data')
 
 O conceito de Big Data está fundamentado em cinco principais características, frequentemente referidas como os "Cinco Vs":
 
