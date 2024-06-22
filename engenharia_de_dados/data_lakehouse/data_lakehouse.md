@@ -6,15 +6,15 @@ A arquitetura Lakehouse é uma abordagem de armazenamento e processamento de dad
 
 Aqui está uma explicação simples:
 
-1. **Data Lake:** É um repositório de dados que armazena informações brutas, não processadas, de várias fontes em seu formato original. Isso permite a captura de uma ampla variedade de dados de diferentes fontes, como bancos de dados, aplicativos, sensores, logs, etc.
+1. **Data Lake:** É um repositório de dados que armazena informações brutas, não processadas, de várias fontes em seu formato original. Isso permite a captura de uma ampla variedade de dados de diferentes fontes, como bancos de dados, aplicativos, sensores, logs, etc. Além de permitir armazenar dados estruturados, semi-estruturados e não-estruturados, o que garante uma alta flexibilidade com tipos de dados distintos.
 
 2. **Data Warehouse:** É um sistema de armazenamento e processamento de dados otimizado para consultas analíticas e relatórios. Os dados no Data Warehouse são estruturados e organizados para facilitar a análise.
 
 Agora, o problema que a arquitetura Lakehouse busca resolver:
 
-Antes do Lakehouse, as organizações tinham que escolher entre armazenar dados em um Data Lake, o que era flexível, mas carecia de estrutura, ou em um Data Warehouse, que era eficiente para análises, mas menos flexível para a variedade de dados. Isso levava a desafios na integração, transformação e análise de dados de maneira eficiente e escalável.
+Antes do Lakehouse, as organizações tinham que escolher entre armazenar dados em um Data Lake, o que era flexível, mas carecia de estrutura, ou em um Data Warehouse, que era eficiente para análises, mas menos flexível para a variedade de dados (lidando apenas com dados estruturados). Isso levava a desafios na integração, transformação e análise de dados de maneira eficiente e escalável.
 
-A arquitetura Lakehouse resolve esse problema ao combinar a flexibilidade do Data Lake para a ingestão de dados brutos com a eficiência do Data Warehouse para processamento analítico. Ela usa tecnologias como o Apache Spark e o Delta Lake para adicionar estrutura aos dados no Data Lake, permitindo consultas analíticas rápidas e precisas.
+A arquitetura Lakehouse resolve esse problema ao combinar a flexibilidade do Data Lake para a ingestão de dados brutos com a eficiência do Data Warehouse para processamento analítico. Ela usa tecnologias como o Apache Spark e o Delta Lake para adicionar estrutura aos dados no Data Lake, permitindo consultas analíticas rápidas e precisas. Com isso, você garante um ambiente flexível que suporta diferentes tipos de dados juntamente com as transações ACID (garantindo atomicidade, consistência, isolamento e durabilidade).
 
 ![Arquitetura Data Lakehouse](../../images/dw_vs_lake_vs_lakehouse.png 'Arquitetura Data Lakehouse')
 
